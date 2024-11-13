@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0px 45px;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+.btn-g a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-g {
+  background: #3bb77e !important;
+  padding: 10px 25px;
+  border-radius: 5px !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+}
+
+.btn-lg {
+  font-size: 22px;
+}
+
+.btn-g:hover {
+  background: #FDC040 !important;
+}
+
+.bg-g {
+  background: #3bb77e;
+}
+
+.text-g {
+  color: #3bb77e;
+}
+
+.hd {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.price {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.oldPrice {
+  font-size: 20px;
+  opacity: 0.6;
+  color: #000;
+  text-decoration: line-through;
+
+}
+
+.listingPage {
+  width: 100%;
+  height: auto;
+  padding: 45px 0px;
+}
+
+.bareadcrumb {
+  width: 100%;
+  height: auto;
+  padding: 45px 35px;
+  background: #d8f1e5;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.bareadcrumb h1 {
+  color: #000;
+  opacity: 0.8;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.bareadcrumb ul li {
+  margin-right: 25px !important;
+}
+
+.bareadcrumb ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.sidebarWrapper {
+  max-width: 20%;
+  flex: 0 0 20%;
+}
+
+.rightcontent {
+  max-width: 80%;
+  flex: 0 0 80%;
+}
+
+.sidebarWrapper h3 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.sidebarWrapper h3:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #f0f0f0;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.sidebarWrapper h3:before {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background: #b0e5c2;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.sidebarWrapper .sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.sidebarWrapper .sidebar .card {
+  padding: 25px;
+  border-radius: 10px !important;
+  margin-bottom: 40px;
+}
+
+.sidebarWrapper .sidebar .card .cartlist .cartitem {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 10px 0px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebarWrapper .sidebar .card .cartlist .cartitem h4 {
+  color: #000;
+  font-size: 18px;
+}
+
+.sidebarWrapper .sidebar .card .cartlist .cartitem .rounded-circle {
+  background: #BCE3C9;
+  width: 40px;
+  height: 40px;
+}
+
+.sidebarWrapper .sidebar .card .cartlist .cartitem:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.priceRange {
+  font-size: 18px;
+}
+
+.filters {
+  padding: 25px 0px;
+}
+
+.filters ul {
+  max-height: 200px;
+  overflow-y: scroll;
+  margin-left: -10px;
+}
+
+.filters ul ::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.filters ul ::-webkit-scrollbar-thumb {
+  background: #ccc !important;
+}
+
+.filters ul li {
+  width: 100%;
+  margin-bottom: 0%;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.sidebarWrapper .sidebar .btn {
+  width: 150px !important;
+}
+
+.rightcontent .topStrip {
+  padding: 0px 25px;
+}
+
+.rightcontent .topStrip {
+  font-size: 18px;
+}
+
+.rightcontent .topStrip .tab- button {
+  background: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 13px 20px !important;
+  text-transform: capitalize !important;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.rightcontent .topStrip .tab- button svg {
+  opacity: 0.5;
+}
+
+.tab- {
+  position: relative;
+}
+
+.account-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 10px 0;
+  list-style: none;
+  z-index: 11;
+  width: 100%;
+}
+
+.account-dropdown li {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.account-dropdown li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}

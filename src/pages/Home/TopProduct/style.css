@@ -1,0 +1,30 @@
+.topSelling-box .items .img {
+    width: 30%;
+    background: #fafafa;
+}
+
+.topSelling-box .items .info {
+    width: 70%;
+}
+
+.topSelling-box .items {
+    padding: 20px 0px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.topSelling-box .items .info h4 {
+    font-weight: 600 !important;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.topSelling-box .items .info a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px !important;
+}
+
+.topSelling-box .items:hover {
+    transform: translateY(-10px);
+}

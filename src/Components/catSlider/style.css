@@ -1,0 +1,63 @@
+.catSliderSection {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    margin-top: -90px;
+}
+
+.cat-slider-main .slick-slide {
+    padding-right: 20px !important;
+}
+
+.cat-slider-main .item {
+    height: auto;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cat-slider-main .item .info {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.cat-slider-main .item .info h5 {
+    font-weight: 600 !important;
+
+}
+
+.cat-slider-main .item .info p {
+    font-size: 14px;
+    opacity: 0.8;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.cat-slider-main .slick-arrow {
+    zoom: 80%;
+}
+
+.cat-slider-main .slick-arrow.slick-next {
+    top: -50px !important;
+    right: 15px !important;
+
+}
+
+.cat-slider-main .slick-arrow.slick-prev {
+    top: -50px !important;
+    right: 100px !important;
+    left: inherit !important;
+
+}
+
+.cat-slider-main .item:hover .info {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(1.1);
+}
